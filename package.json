@@ -1,7 +1,7 @@
 {
   "name": "pino-bare",
   "version": "0.0.1",
-  "description": "Pino compatibility module for Bare",
+  "description": "Pino compatibility module for Bare & Pear",
   "exports": {
     ".": "./index.js",
     "./imports": "./imports.json",

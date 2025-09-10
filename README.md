@@ -1,6 +1,6 @@
 # pino-bare
 
-Pino compatibility module for Bare.
+Pino compatibility module for Bare & Pear.
 
 ```
 npm i pino-bare
