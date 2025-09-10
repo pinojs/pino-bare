@@ -1,0 +1,48 @@
+{
+  "name": "pino-bare",
+  "version": "0.0.1",
+  "description": "Pino compatibility module for Bare",
+  "exports": {
+    ".": "./index.js",
+    "./imports": "./imports.json",
+    "./package": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "imports.json"
+  ],
+  "scripts": {
+    "test": "eslint . --ext .js && bare test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinojs/pino-bare.git"
+  },
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "contributors": [
+    "Holepunch"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinojs/pino-bare/issues"
+  },
+  "homepage": "https://github.com/pinojs/pino-bare#readme",
+  "dependencies": {
+    "bare-assert": "^1.1.0",
+    "bare-buffer": "^3.3.1",
+    "bare-fs": "^4.3.3",
+    "bare-module": "^5.0.3",
+    "bare-os": "^3.6.2",
+    "bare-process": "^4.2.1",
+    "bare-utils": "^1.5.1",
+    "bare-worker": "^3.0.0",
+    "events": "^3.3.0",
+    "pino": "^9.9.5"
+  },
+  "devDependencies": {
+    "bare-stream": "^2.7.0",
+    "brittle": "^3.18.6",
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0"
+  }
+}

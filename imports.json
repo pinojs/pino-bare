@@ -1,0 +1,14 @@
+{
+  "assert": "bare-assert",
+  "buffer": "bare-buffer",
+  "fs": "bare-fs",
+  "module": "bare-module",
+  "path": "bare-path",
+  "url": "bare-url",
+  "util": "bare-utils",
+  "worker_threads": "bare-worker",
+
+  "node:events": "events",
+  "node:os": "bare-os",
+  "node:path": "bare-path"
+}
