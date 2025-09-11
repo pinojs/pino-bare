@@ -1,6 +1,6 @@
 # pino-bare
 
-[Pino]([https://getpino.io/](https://github.com/pinojs/pino)) for [Bare](https://github.com/holepunchto/bare) & [Pear](https://github.com/holepunchto/pear).
+[Pino]([https://getpino.io/](https://github.com/pinojs/pino)) for [Bare](https://github.com/holepunchto/bare) & [Pear](https://docs.pears.com).
 
 ```
 npm i pino-bare
