@@ -1,6 +1,6 @@
 # pino-bare
 
-Pino compatibility module for Bare & Pear.
+[Pino]([https://getpino.io/](https://github.com/pinojs/pino)) for [Bare](https://github.com/holepunchto/bare) & [Pear](https://github.com/holepunchto/pear).
 
 ```
 npm i pino-bare
@@ -16,6 +16,8 @@ logger.info('hello world')
 const child = logger.child({ a: 'property' })
 child.info('hello child!')
 ```
+
+See [Pino Documentation](https://getpino.io/).
 
 ## License
 
