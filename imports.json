@@ -1,14 +1,47 @@
 {
-  "assert": "bare-assert",
-  "buffer": "bare-buffer",
-  "fs": "bare-fs",
-  "module": "bare-module",
-  "path": "bare-path",
-  "url": "bare-url",
-  "util": "bare-utils",
-  "worker_threads": "bare-worker",
+  "assert": {
+    "bare": "bare-assert",
+    "default": "assert"
+  },
+  "buffer": {
+    "bare": "bare-buffer",
+    "default": "buffer"
+  },
+  "fs": {
+    "bare": "bare-fs",
+    "default": "fs"
+  },
+  "module": {
+    "bare": "bare-module",
+    "default": "module"
+  },
+  "path": {
+    "bare": "bare-path",
+    "default": "path"
+  },
+  "url": {
+    "bare": "bare-url",
+    "default": "url"
+  },
+  "util": {
+    "bare": "bare-utils",
+    "default": "util"
+  },
+  "worker_threads": {
+    "bare": "bare-worker",
+    "default": "worker_threads"
+  },
 
-  "node:events": "events",
-  "node:os": "bare-os",
-  "node:path": "bare-path"
+  "node:events": {
+    "bare": "bare-events",
+    "default": "node:events"
+  },
+  "node:os": {
+    "bare": "bare-os",
+    "default": "node:os"
+  },
+  "node:path": {
+    "bare": "bare-path",
+    "default": "node:path"
+  }
 }
