@@ -31,10 +31,9 @@
     "bare": "bare-worker",
     "default": "worker_threads"
   },
-
-  "node:events": {
-    "bare": "bare-events",
-    "default": "node:events"
+  "node:diagnostics_channel": {
+    "bare": "bare-diagnostics-channel",
+    "default": "node:diagnostics_channel"
   },
   "node:os": {
     "bare": "bare-os",

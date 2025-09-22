@@ -30,6 +30,7 @@
   "dependencies": {
     "bare-assert": "^1.1.0",
     "bare-buffer": "^3.3.1",
+    "bare-diagnostics-channel": "^1.1.0",
     "bare-fs": "^4.3.3",
     "bare-module": "^5.0.3",
     "bare-os": "^3.6.2",
