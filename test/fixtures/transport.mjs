@@ -1,5 +1,5 @@
 import 'bare-process/global'
 
-import { createWriteStream } from 'bare-fs'
+import { createWriteStream } from 'fs'
 
 export default async ({ destination }) => createWriteStream(destination)
