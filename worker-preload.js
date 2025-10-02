@@ -1,1 +1,0 @@
-require('bare-process/global')

@@ -34,7 +34,6 @@
     "bare-fs": "^4.3.3",
     "bare-module": "^5.0.3",
     "bare-os": "^3.6.2",
-    "bare-path": "^3.0.0",
     "bare-process": "^4.2.1",
     "bare-utils": "^1.5.1",
     "bare-worker": "^3.0.0",
