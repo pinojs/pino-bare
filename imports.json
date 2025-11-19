@@ -7,6 +7,10 @@
     "bare": "bare-buffer",
     "default": "buffer"
   },
+  "events": {
+    "bare": "bare-events",
+    "default": "events"
+  },
   "fs": {
     "bare": "bare-fs",
     "default": "fs"
@@ -34,6 +38,10 @@
   "node:diagnostics_channel": {
     "bare": "bare-diagnostics-channel",
     "default": "node:diagnostics_channel"
+  },
+  "node:events": {
+    "bare": "bare-events",
+    "default": "node:events"
   },
   "node:os": {
     "bare": "bare-os",
