@@ -31,13 +31,13 @@
     "bare-assert": "^1.1.0",
     "bare-buffer": "^3.3.1",
     "bare-diagnostics-channel": "^1.1.0",
+    "bare-events": "^2.8.2",
     "bare-fs": "^4.3.3",
     "bare-module": "^5.0.3",
     "bare-os": "^3.6.2",
     "bare-process": "^4.2.1",
     "bare-utils": "^1.5.1",
     "bare-worker": "^3.0.0",
-    "events": "^3.3.0",
     "pino": "^9.9.5"
   },
   "devDependencies": {
