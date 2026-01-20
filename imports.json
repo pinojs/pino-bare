@@ -37,18 +37,18 @@
   },
   "node:diagnostics_channel": {
     "bare": "bare-diagnostics-channel",
-    "default": "node:diagnostics_channel"
+    "default": "diagnostics_channel"
   },
   "node:events": {
     "bare": "bare-events",
-    "default": "node:events"
+    "default": "events"
   },
   "node:os": {
     "bare": "bare-os",
-    "default": "node:os"
+    "default": "os"
   },
   "node:path": {
     "bare": "bare-path",
-    "default": "node:path"
+    "default": "path"
   }
 }
