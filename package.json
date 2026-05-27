@@ -37,7 +37,7 @@
     "bare-os": "^3.6.2",
     "bare-process": "^4.2.1",
     "bare-utils": "^1.5.1",
-    "bare-worker": "^3.0.0",
+    "bare-worker": "^4.1.6",
     "pino": "^9.9.5"
   },
   "devDependencies": {
