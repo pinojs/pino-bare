@@ -35,10 +35,11 @@
     "bare-fs": "^4.3.3",
     "bare-module": "^6.2.0",
     "bare-os": "^3.6.2",
-    "bare-process": "^4.2.1",
+    "bare-process": "^4.5.0",
+    "bare-string-decoder": "^1.0.0",
     "bare-utils": "^1.5.1",
-    "bare-worker": "^3.0.0",
-    "pino": "^9.9.5"
+    "bare-worker": "^4.1.9",
+    "pino": "^10.3.1"
   },
   "devDependencies": {
     "bare-stream": "^2.7.0",
