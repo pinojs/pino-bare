@@ -19,9 +19,37 @@
     "bare": "bare-module",
     "default": "module"
   },
+  "node:diagnostics_channel": {
+    "bare": "bare-diagnostics-channel",
+    "default": "diagnostics_channel"
+  },
+  "node:events": {
+    "bare": "bare-events",
+    "default": "events"
+  },
+  "node:fs": {
+    "bare": "bare-fs",
+    "default": "fs"
+  },
+  "node:os": {
+    "bare": "bare-os",
+    "default": "os"
+  },
+  "node:path": {
+    "bare": "bare-path",
+    "default": "path"
+  },
+  "node:url": {
+    "bare": "bare-url",
+    "default": "url"
+  },
   "path": {
     "bare": "bare-path",
     "default": "path"
+  },
+  "string_decoder": {
+    "bare": "bare-string-decoder",
+    "default": "string_decoder"
   },
   "url": {
     "bare": "bare-url",
@@ -34,21 +62,5 @@
   "worker_threads": {
     "bare": "bare-worker",
     "default": "worker_threads"
-  },
-  "node:diagnostics_channel": {
-    "bare": "bare-diagnostics-channel",
-    "default": "diagnostics_channel"
-  },
-  "node:events": {
-    "bare": "bare-events",
-    "default": "events"
-  },
-  "node:os": {
-    "bare": "bare-os",
-    "default": "os"
-  },
-  "node:path": {
-    "bare": "bare-path",
-    "default": "path"
   }
 }

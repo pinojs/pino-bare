@@ -1,7 +1,7 @@
 const test = require('brittle')
 const { Transform } = require('bare-stream')
 const { join } = require('bare-path')
-const { readFile } = require('bare-fs')
+const { readFile, statSync } = require('bare-fs')
 const pino = require('.')
 
 test('basic', (t) => {
@@ -33,10 +33,27 @@ test('transport', async (t) => {
   const logger = pino(transport)
   logger.info('hello transport')
 
-  setTimeout(async () => {
-    const data = JSON.parse(await readFile(destination))
+  await waitForFile(destination)
 
-    t.is(data.msg, 'hello transport')
-    t.is(data.level, 30)
-  }, 500)
+  const data = JSON.parse(await readFile(destination))
+
+  t.is(data.msg, 'hello transport')
+  t.is(data.level, 30)
 })
+
+function waitForFile (path) {
+  const { promise, resolve } = Promise.withResolvers()
+
+  const interval = setInterval(() => {
+    try {
+      const { size } = statSync(path)
+
+      if (size > 0) {
+        clearInterval(interval)
+        resolve()
+      }
+    } catch (err) {}
+  }, 100)
+
+  return promise
+}
