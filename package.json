@@ -33,7 +33,7 @@
     "bare-diagnostics-channel": "^1.1.0",
     "bare-events": "^2.8.2",
     "bare-fs": "^4.3.3",
-    "bare-module": "^6.2.0",
+    "bare-module": "^7.1.0",
     "bare-os": "^3.6.2",
     "bare-process": "^4.5.0",
     "bare-string-decoder": "^1.0.0",
