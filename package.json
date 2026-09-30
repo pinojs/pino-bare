@@ -12,7 +12,9 @@
     "imports.json"
   ],
   "scripts": {
-    "test": "eslint . --ext .js && bare test.js"
+    "format": "prettier --write . && lunte --fix",
+    "lint": "prettier --check . && lunte",
+    "test": "brittle-bare --coverage test.js"
   },
   "repository": {
     "type": "git",
@@ -43,8 +45,8 @@
   },
   "devDependencies": {
     "bare-stream": "^2.7.0",
-    "brittle": "^3.18.6",
-    "eslint": "^8.57.1",
-    "eslint-config-standard": "^17.1.0"
+    "brittle": "^3.19.1",
+    "lunte": "^1.8.4",
+    "prettier-config-holepunch": "^2.0.0"
   }
 }
