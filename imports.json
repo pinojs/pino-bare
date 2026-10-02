@@ -47,10 +47,6 @@
     "bare": "bare-path",
     "default": "path"
   },
-  "string_decoder": {
-    "bare": "bare-string-decoder",
-    "default": "string_decoder"
-  },
   "url": {
     "bare": "bare-url",
     "default": "url"
