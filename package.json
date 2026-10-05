@@ -40,7 +40,7 @@
     "bare-process": "^4.5.0",
     "bare-utils": "^1.5.1",
     "bare-worker": "^4.1.9",
-    "pino": "^10.3.1"
+    "pino": "^10.4.0"
   },
   "devDependencies": {
     "bare-stream": "^2.7.0",

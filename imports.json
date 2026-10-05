@@ -43,6 +43,10 @@
     "bare": "bare-url",
     "default": "url"
   },
+  "node:util": {
+    "bare": "bare-utils",
+    "default": "util"
+  },
   "path": {
     "bare": "bare-path",
     "default": "path"
