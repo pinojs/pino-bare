@@ -4,12 +4,10 @@
   "description": "Pino compatibility module for Bare & Pear",
   "exports": {
     ".": "./index.js",
-    "./imports": "./imports.json",
     "./package": "./package.json"
   },
   "files": [
-    "index.js",
-    "imports.json"
+    "index.js"
   ],
   "scripts": {
     "format": "prettier --write . && lunte --fix",
@@ -30,16 +28,7 @@
   },
   "homepage": "https://github.com/pinojs/pino-bare#readme",
   "dependencies": {
-    "bare-assert": "^1.3.0",
-    "bare-buffer": "^3.3.1",
-    "bare-diagnostics-channel": "^1.1.0",
-    "bare-events": "^2.8.2",
-    "bare-fs": "^4.3.3",
-    "bare-module": "^7.2.1",
-    "bare-os": "^3.6.2",
-    "bare-process": "^4.5.0",
-    "bare-utils": "^1.5.1",
-    "bare-worker": "^4.1.9",
+    "bare-node-runtime": "^1.5.1",
     "pino": "^10.4.0"
   },
   "devDependencies": {
